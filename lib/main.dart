@@ -33,6 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: const Text('Flutter_GitHub_Project_Demo'),
         backgroundColor: Colors.cyan,
@@ -42,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Center(child: Text('Flutter_GitHub_Project_Demo',style: TextStyle(fontSize: 50,color: Colors.deepOrange),)),
+          Center(child: Text('Flutter_GitHub_Project_Demo',style: TextStyle(fontSize: 25,color: Colors.deepOrange),)),
         ],
       ),
     );
