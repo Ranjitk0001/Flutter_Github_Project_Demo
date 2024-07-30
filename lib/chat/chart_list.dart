@@ -15,6 +15,17 @@ class _ChartListState extends State<ChartList> {
       appBar: AppBar(
         title: Text('Chating List'),
       ),
+      
+      body: ListView.builder(
+        itemCount: 20,
+          itemBuilder: (context,index){
+        return const ListTile(
+          title: Text('Ranjit Kale'),
+        );
+      }),
+      
     );
+
+    
   }
 }
