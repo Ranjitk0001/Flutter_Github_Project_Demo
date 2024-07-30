@@ -34,10 +34,10 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      appBar: AppBar(
-        title: const Text('Flutter_GitHub_Project_Demo'),
-        backgroundColor: Colors.cyan,
-      ),
+      // appBar: AppBar(
+      //   title: const Text('Flutter_GitHub_Project_Demo'),
+      //   backgroundColor: Colors.cyan,
+      // ),
 
       body:const Column(
         mainAxisAlignment: MainAxisAlignment.center,
