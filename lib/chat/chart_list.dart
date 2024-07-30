@@ -13,7 +13,7 @@ class _ChartListState extends State<ChartList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Chating List'),
+        title: Text('Chating GitHub List'),
       ),
       
       body: ListView.builder(
